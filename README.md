@@ -1,68 +1,66 @@
-"# django-ecommerce-project-amazon-clone"
-## Latest Code Please Follow this link : 
-<a href="https://github.com/hackstarsj/AmazonCloneEcommerceProjectUsingDjangoReact">Amazon Clone With Inventory Management System in React and Django</a>
+# 🛒 Online Store Clone (Amazon-like E-Commerce)
 
-## Complete Playlist Tutorial Link : 
+A **Django-based E-Commerce Web Application** with a custom **Admin Dashboard** for managing categories, sub-categories, products, merchants, and customers.
 
-<a href="https://www.youtube.com/playlist?list=PLb-NlfexLTk9_nyBt3ZlNTp5ek8CPavRE">https://www.youtube.com/playlist?list=PLb-NlfexLTk9_nyBt3ZlNTp5ek8CPavRE</a>
+This project demonstrates a real-world **admin-driven e-commerce system** similar to Amazon’s backend management.
 
-## Theme Used
-<a href="https://github.com/stisla/stisla">View</a>
+---
 
-## Er Diagram of Project
-<img src="screenshots/er_diagram.png" style="width:100%" alt="Er Diagram"/>
+## 📌 Project Highlights
 
-## Added BASE TEMPLATE Page
-<img src="screenshots/base_template.PNG" style="width:100%" alt="Er Diagram"/>
+- Custom Admin Dashboard (Not default Django admin)
+- Category & Sub-Category Management
+- Product Management with Images
+- Merchant & Customer User Roles
+- Status Toggle (Active / Inactive)
+- Search, Sort & Pagination
+- Clean & Responsive UI
 
+---
 
-## Added Admin Signin Page
-<img src="screenshots/admin_signin.PNG" style="width:100%" alt="Er Diagram"/>
+## ✨ Features
 
-## Added Admin Category List Page
-<img src="screenshots/category_list.PNG" style="width:100%" alt="category"/>
+<details>
+<summary>Click to expand 👇</summary>
 
-## Added Admin Category Create Page
-<img src="screenshots/category_create.PNG" style="width:100%" alt="category"/>
+### 🔐 Authentication
+- Admin login
+- Merchant user management
+- Customer user management
 
-## Added Admin Category Update Page
-<img src="screenshots/category_update.PNG" style="width:100%" alt="category"/>
+### 🗂 Category Management
+- Add / Edit / List Categories
+- Category image upload
+- URL slug generation
+- Active / Inactive toggle
+- Search & sorting
 
-## Added Admin Sub Category List Page
-<img src="screenshots/sub_category_list.PNG" style="width:100%" alt="category"/>
+### 🧩 Sub-Category
+- Linked with main categories
+- Full CRUD operations
 
-## Added Admin Sub Category Create Page
-<img src="screenshots/sub_category_create.PNG" style="width:100%" alt="category"/>
+### 📦 Product Management
+- Add products with images
+- Assign category & sub-category
+- Product status control
+- Pagination support
 
-## Added Admin Sub Category Update Page
-<img src="screenshots/category_update.PNG" style="width:100%" alt="category"/>
+### 🛠 Admin Dashboard
+- Sidebar navigation
+- Card-based UI
+- Custom pages (not Django default admin)
 
-## Added Admin Merchant Update Page
-<img src="screenshots/merchant_update.PNG" style="width:100%" alt="category"/>
+</details>
 
-## Added Admin Merchant Create Page
-<img src="screenshots/merchant_create.PNG" style="width:100%" alt="category"/>
+---
 
-## Added Admin Merchant List Page
-<img src="screenshots/merchant_list.PNG" style="width:100%" alt="category"/>
+## 🛠 Tech Stack
 
-## Added Searching Sorting and Pagination Features
-<img src="screenshots/category_searching.PNG" style="width:100%" alt="category"/>
+<details>
+<summary>Click to expand 👇</summary>
 
-## Added Add Product Page With Dynamic Content and Media
-<img src="screenshots/product_create.png" style="width:100%" alt="category"/>
-
-## Added Product List Page
-<img src="screenshots/product_list.png" style="width:100%" alt="Products"/>
-
-## Added Product Edit Page
-<img src="screenshots/product_edit.png" style="width:100%" alt="Products"/>
-
-## Added Product Add Media Page
-<img src="screenshots/product_add_media.png" style="width:100%" alt="Products"/>
-
-## Added Product Edit Media Page
-<img src="screenshots/product_edit_media.png" style="width:100%" alt="Products"/>
-
-## Added Product Add Stock Page
-<img src="screenshots/product_add_stock.png" style="width:100%" alt="Products"/>
+- **Backend:** Django (Python)
+- **Frontend:** HTML, CSS, Bootstrap
+- **Database:** SQLite
+- **Authentication:** Django Auth
+- **Media Han**
